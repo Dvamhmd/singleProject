@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/home_activity"
+    android:orientation="vertical"
+    android:gravity="center"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_20ssp"
+        android:fontFamily="@font/josefin_medium"
+        android:text="@string/halo_selamat_datang_di_home"
+        android:textStyle="bold"
+        android:textAlignment="center" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_30sdp" />
+
+    <Button
+        android:id="@+id/kembali"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:text="@string/kembali"
+        android:textSize="@dimen/_16ssp"
+        android:fontFamily="@font/josefin_medium"
+        android:backgroundTint="@color/main_button"
+        tools:ignore="VisualLintButtonSize" />
+
+</LinearLayout>

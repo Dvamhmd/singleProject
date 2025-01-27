@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Final Project</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="masukkan_username_anda">Masukkan Username anda</string>
+    <string name="masukkan_password">Masukkan Password</string>
+    <string name="masukkan_password_anda">Masukkan Password anda</string>
+    <string name="masuk">Masuk</string>
+    <string name="halo_selamat_datang_di_home">Halo Selamat datang di Home</string>
+    <string name="kembali">Kembali</string>
+</resources>
