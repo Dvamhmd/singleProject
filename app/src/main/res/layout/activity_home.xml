@@ -6,6 +6,7 @@
     android:id="@+id/home_activity"
     android:orientation="vertical"
     android:gravity="center"
+    android:layout_margin="@dimen/_16sdp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 
 
@@ -18,6 +19,116 @@
         android:text="@string/halo_selamat_datang_di_home"
         android:textStyle="bold"
         android:textAlignment="center" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_16sdp" />
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_depan"
+                android:textSize="@dimen/_16ssp"
+                android:fontFamily="@font/josefin_medium"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/_8sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/value"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/_10sdp"
+                tools:ignore="VisualLintBounds" />
+
+            <TextView
+                android:id="@+id/nama_depan_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/_16ssp"
+                android:fontFamily="@font/josefin_medium"
+                android:layout_marginEnd="@dimen/_12sdp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nama_lengkap"
+                android:textSize="@dimen/_16ssp"
+                android:fontFamily="@font/josefin_medium"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/_8sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/value"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/_10sdp"
+                tools:ignore="VisualLintBounds" />
+
+            <TextView
+                android:id="@+id/nama_lengkap_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/_16ssp"
+                android:fontFamily="@font/josefin_medium"
+                android:layout_marginEnd="@dimen/_12sdp"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/nomor_hp"
+                android:textSize="@dimen/_16ssp"
+                android:fontFamily="@font/josefin_medium"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/_8sdp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/value"
+                android:textSize="@dimen/_16ssp"
+                android:textStyle="bold"
+                android:layout_marginEnd="@dimen/_10sdp"
+                tools:ignore="VisualLintBounds" />
+
+            <TextView
+                android:id="@+id/nomor_hp_input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""
+                android:textSize="@dimen/_16ssp"
+                android:fontFamily="@font/josefin_medium"
+                android:layout_marginEnd="@dimen/_12sdp"/>
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+
+
+
 
     <View
         android:layout_width="wrap_content"

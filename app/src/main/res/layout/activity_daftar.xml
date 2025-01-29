@@ -7,12 +7,12 @@
     android:gravity="center"
     android:background="@color/main_bg"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/main_activity">
+    android:id="@+id/daftar_activity">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/selamat_datang"
+        android:text="@string/pendaftaran"
         android:textAlignment="center"
         android:gravity="center"
         android:fontFamily="@font/josefin_medium"
@@ -25,16 +25,16 @@
 
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/layout_username"
+        android:id="@+id/layout_email"
         android:layout_width="@dimen/_260sdp"
         android:layout_height="@dimen/_45sdp">
 
 
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/username"
+            android:id="@+id/email"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:hint="@string/masukkan_username"
             android:textSize="@dimen/_14ssp"
             android:fontFamily="@font/josefin_medium"
@@ -64,8 +64,8 @@
         <com.google.android.material.textfield.TextInputEditText
             android:id="@+id/password"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="@string/masukkan_password"
+            android:layout_height="match_parent"
+            android:hint="@string/buat_password"
             android:textSize="@dimen/_14ssp"
             android:fontFamily="@font/josefin_medium"
             android:inputType="textPassword"
@@ -80,13 +80,37 @@
         android:layout_height="@dimen/_30sdp" />
 
     <Button
-        android:id="@+id/button_masuk"
+        android:id="@+id/button_daftar"
         android:layout_width="@dimen/_100sdp"
         android:layout_height="wrap_content"
         android:textSize="@dimen/_16ssp"
-        android:text="@string/masuk"
+        android:text="@string/daftar"
         android:fontFamily="@font/josefin_medium"
         android:backgroundTint="@color/main_button"
+        tools:ignore="VisualLintButtonSize" />
+
+    <View
+        android:layout_width="@dimen/_50sdp"
+        android:layout_height="@dimen/_30sdp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sudah_punya_akun"
+        android:fontFamily="@font/josefin_medium"
+        android:textSize="@dimen/_14ssp"
+        android:layout_marginBottom="@dimen/_20sdp"/>
+
+    <Button
+        android:id="@+id/button_masuk"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:fontFamily="@font/josefin_medium"
+        android:text="@string/masuk"
+        android:textColor="@color/main_button"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="bold"
         tools:ignore="VisualLintButtonSize" />
 
 

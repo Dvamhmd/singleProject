@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/biodata"
+    android:gravity="center"
+    android:focusableInTouchMode="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lengkapi_data_diri"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:fontFamily="@font/josefin_medium"
+        android:textStyle="bold"
+        android:textSize="@dimen/_24ssp"
+        tools:ignore="VisualLintBounds" />
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_45sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nama_depan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nama_depan"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/josefin_medium"
+            android:inputType="text"
+            tools:ignore="VisualLintTextFieldSize" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_10sdp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nama_layout"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_45sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nama_lengkap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nama_lengkap"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/josefin_medium"
+            android:inputType="text"
+            tools:ignore="VisualLintTextFieldSize" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_10sdp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/nomor_layout"
+        android:layout_width="@dimen/_260sdp"
+        android:layout_height="@dimen/_45sdp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/nomor_telepon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="@string/nomor_telepon"
+            android:textSize="@dimen/_14ssp"
+            android:fontFamily="@font/josefin_medium"
+            android:inputType="number"
+            tools:ignore="VisualLintTextFieldSize" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_10sdp" />
+
+
+
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_40sdp"
+        tools:ignore="VisualLintBounds" />
+
+    <Button
+        android:id="@+id/button_mulai"
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_16ssp"
+        android:text="@string/mulai"
+        android:fontFamily="@font/josefin_medium"
+        android:backgroundTint="@color/main_button"
+        tools:ignore="VisualLintButtonSize,VisualLintBounds" />
+
+
+
+</LinearLayout>
+
